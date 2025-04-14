@@ -44,3 +44,7 @@ section {
     margin-bottom: 10px;
 }
 
+#profile-photo {
+    max-width: 200px;
+    border-radius: 50%;
+    
