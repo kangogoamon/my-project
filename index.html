@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amon Kangogo - Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section with navigation -->
+    <header>
+        <h1>Amon Kangogo</h1>
+        <p id="greeting"></p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About section with profile photo and bio -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/your-photo.jpg" alt="Your Name" id="profile-photo">
+            <p>As an aspiring tech guy, I am always ready and earger to learn new concepts and excercise them. I would say this counts as a hobby. I would say I'm arguibly a decent driver, if not good of course.</p>
+            <button id="readMoreBtn">Read More</button>
+            <div id="extraBio" style="display: none;">
+                <p>Truth be told, I do this for financial gain and freedom...don't we all? Cheers.</p>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>I am compitent in Web Design and Graphics Design</li>
+                <li>Data evaluation and intergration</li>
+            </ul>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li class="project-item">Project 1</li>
+                <li class="project-item">Project 2</li>
+                <li class="project-item">Project 3</li>
+            </ul>
+        </section>
+
+        <!-- Interactive button for JavaScript demo -->
+        <button id="alertButton">Click Me!</button>
+
+        <!-- Contact form section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="newsletterForm">
+                <label for="name">Amon Kangogo:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">amonkangogo27@gmail.com:</label>
+                <input type="email" id="email" required>
+                
+                <button type="submit">Subscribe</button>
+            </form>
+            <p id="formError" style="color: red;"></p>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Kangogo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
