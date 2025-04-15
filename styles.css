@@ -47,4 +47,21 @@ section {
 #profile-photo {
     max-width: 200px;
     border-radius: 8px;
-    
+}
+
+/* Project item styles */
+.project-item {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.project-item ul {
+    padding-left: 20px;
+}
