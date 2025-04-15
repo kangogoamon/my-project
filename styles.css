@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #99a3a4;
-    color: #fff;
+    color: #17202a;
     text-align: center;
     padding: 1rem;
 }
@@ -46,5 +46,5 @@ section {
 
 #profile-photo {
     max-width: 200px;
-    border-radius: 50%;
+    border-radius: 100%;
     
